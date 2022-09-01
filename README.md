@@ -8,4 +8,5 @@
 ### 关于天空盒
 在Window窗口中Rendering-->Lighting窗口下Environment-->Skybox Material更换需要的天空盒材质即可
 
-### 
+### 关于阴影
+URP Asset下更改Shadows的Max Distance可以调整渲染阴影的距离 更改Shadows的Cascade Count可以进行分级渲染 更改Shadows的Split可以选择层级渲染距离 勾选Shadows的Soft Shadows可以使阴影模糊 更改Shadows的Normal Bias可以增加影子中间的缝隙 更改Lighting下的Shadow Resolution可以更改阴影分辨率 
