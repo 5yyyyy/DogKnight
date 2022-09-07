@@ -16,3 +16,6 @@ URP Asset下更改Shadows的Max Distance可以调整渲染阴影的距离 更改
 
 ### 关于场景道具
 按住V拖拽道具可以使用顶点吸附 方便场景中道具环境布置 调整好Scene窗口后选中Main Camera后Ctrl+Shift+F可以将摄像机固定到Scene当前角度视角
+
+### 关于Polybrush插件绘制地图
+在Window-->Package Manager下找到Polybrush下载后需要Import对应的Samples 后在Tools下可以打开Polybrush插件
