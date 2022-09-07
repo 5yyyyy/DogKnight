@@ -10,3 +10,6 @@
 
 ### 关于阴影
 URP Asset下更改Shadows的Max Distance可以调整渲染阴影的距离 更改Shadows的Cascade Count可以进行分级渲染 达到近实远虚的效果 更改Shadows的Split可以选择层级渲染距离 勾选Shadows的Soft Shadows可以使阴影模糊 更改Shadows的Normal Bias可以让影子有虚实变化 更改Lighting下的Shadow Resolution可以更改阴影分辨率 更改Quality的Anti Aliasing(MSAA)可以更改抗锯齿
+
+### 关于光照
+更改GameScene Settings中的灯光，若没有则在Window窗口中Rendering-->Lighting-->Scene下New Lighting Settings即可 Lightings Mode一般选择Baked indirect间接烘焙 Lightmapper一般选择Progressive GPU（Preview）减少CPU开销 设置好后点击右下角的Generate Lighting即可 在Environment下更改Environment Lighting-->Source可以选择环境光
