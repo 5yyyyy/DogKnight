@@ -15,4 +15,4 @@ URP Asset下更改Shadows的Max Distance可以调整渲染阴影的距离 更改
 更改GameScene Settings中的灯光，若没有则在Window窗口中Rendering-->Lighting-->Scene下New Lighting Settings即可 Lightings Mode一般选择Baked indirect间接烘焙 Lightmapper一般选择Progressive GPU（Preview）减少CPU开销 设置好后点击右下角的Generate Lighting即可 在Environment下更改Environment Lighting-->Source可以选择环境光
 
 ### 关于场景道具
-按住V拖拽场景可以使用顶点吸附 方便场景中道具环境布置
+按住V拖拽道具可以使用顶点吸附 方便场景中道具环境布置
