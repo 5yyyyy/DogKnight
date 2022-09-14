@@ -27,4 +27,4 @@ URP Asset下更改Shadows的Max Distance可以调整渲染阴影的距离 更改
 安装ProGrids插件前先需要从Edit-->Project Settings-->Package Manager-->Advanced Settings中勾选Enable Pre-release Package之后 从Window-->Package Manager下左上方选择Add Package From git URL输入com.unity.progrids即可完成安装 后在Tools-->ProGrids-->ProGrids Window可以打开ProGrids插件 ProGrids主要是用于作为参考线 第一栏Snap Value是按照选定的距离进行拖拽移动
 
 ### 关于智能导航地图烘焙
-在Window-->AI-->Navigation中打开面板 选中需要智能导航烘培的区域后勾选Navigation Static后在Navigation Area选择是否可以行走 在Bake中设置区域后点击Bake即可完成智能导航地图烘培 Bake设置区域时可以参考当前人物大小 给人物添加组件Nav Mesh Agent
+在Window-->AI-->Navigation中打开面板 选中需要智能导航烘培的区域后勾选Navigation Static后在Navigation Area选择是否可以行走 在Bake中设置区域后点击Bake即可完成智能导航地图烘培 Bake设置区域时可以参考当前人物大小 给人物添加组件Nav Mesh Agent后调整Radius和Height到适合的大小后在Bake中将Agent Radius与Agent Height同步后Bake即可
