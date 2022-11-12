@@ -3,7 +3,7 @@
 ### Unity版本 2022.1.12  
 
 ### 关于3D默认渲染管线升级到URP管线
-首先在Package Manager中安装Universal RP 之后在project窗口中Create-->Rendering-->URP Asset 然后在Edit窗口中Project Settings-->Graphics中添加新建的URP Asset 在Project Settings-->Quality也添加URP Asset 最后在Window窗口中Rendering-->Render Pipeline Converter窗口中下拉选择Build-in to URP后勾选Rending Settings和Material Upgrade后选择initialize Converters后Convert Assets即可
+首先在Package Manager中安装Universal RP 之后在project窗口中Create-->Rendering-->URP Asset 然后在Edit窗口中Project Settings-->Graphics中添加新建的URP Asset 在Project Settings-->Quality也添加URP Asset 最后在Window窗口中Rendering-->Render Pipeline Converter窗口中下拉选择Build-in to URP后勾选下方全部选择框后initialize Converters后Convert Assets即可渲染URP素材
 
 ### 关于天空盒
 在Window窗口中Rendering-->Lighting窗口下Environment-->Skybox Material更换需要的天空盒材质即可
