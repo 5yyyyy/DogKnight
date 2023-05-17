@@ -24,7 +24,7 @@ URP Asset下更改Shadows的Max Distance可以调整渲染阴影的距离 更改
 在Window-->Package Manager下找到ProBuilder下载后需要Import对应的Samples 后在Tools-->ProBuilde-->ProBuilde Window可以打开ProBuilde插件 选择右上方Use Icon Mode 使用图形模式 选择New Shape后按住左键选择范围可以更改不同的模型进行范围适配 参数可以从生成物体挂载的脚本Pro Builder Shape中更改Size可以更改物体大小 Plane Settings-->Height Cuts和Width Cuts可以更改顶点数 设置好后按下Shift可以看到物体并放置 ProBuilder栏中选择Triangulate Object可以将方形面切割成三角面 创建出来的Plane可以用材质球直接附上材质即可
 
 ### 关于ProGrids插件
-安装ProGrids插件前先需要从Edit-->Project Settings-->Package Manager-->Advanced Settings中勾选Enable Pre-release Package之后 从Window-->Package Manager下左上方选择Add Package From git URL输入com.unity.progrids即可完成安装 后在Tools-->ProGrids-->ProGrids Window可以打开ProGrids插件 ProGrids主要是用于作为参考线 第一栏Snap Value是按照选定的距离进行拖拽移动
+安装ProGrids插件从Window-->Package Manager下左上方选择Add Package From git URL输入com.unity.progrids即可完成安装 后在Tools-->ProGrids-->ProGrids Window可以打开ProGrids插件 ProGrids主要是用于作为参考线 第一栏Snap Value是按照选定的距离进行拖拽移动
 
 ### 关于智能导航地图烘焙
 在Window-->AI-->Navigation中打开面板 选中需要智能导航烘培的区域后勾选Navigation Static后在Navigation Area选择是否可以行走 在Bake中设置区域后点击Bake即可完成智能导航地图烘培 Bake设置区域时可以参考当前人物大小 给人物添加组件Nav Mesh Agent后调整Radius和Height到适合的大小后在Bake中将Agent Radius与Agent Height同步后Bake即可 同时也可以向地图中的障碍物添加Nav Mesh Obstacle障碍物组件 Shape可以更改描边 勾选Carve后即可按照当前物体大小切割物体 当物体移动时下方切割的地方烘培后玩家不可移动到该位置
