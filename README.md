@@ -21,7 +21,7 @@ URP Asset下更改Shadows的Max Distance可以调整渲染阴影的距离 更改
 在Window-->Package Manager下找到Polybrush下载后需要Import对应的Samples 后在Tools-->Polybrush-->Polybrush Window可以打开Polybrush插件 第一栏可以调整地面的高矮 点击后在三角面上点击左键可以拉高 按住Ctrl+左键可以拉低 其中Outer Radius外角可以调整外圈 Inner Radius内角可以调整内圈 Strength可以调整拉扯力度 Direcetion可以调整拉扯方向 Brush Mirroring可以复制笔刷沿XYZ轴对称刷 第二栏可以柔化场景 将场景中的顶点进行柔化处理 第三栏可以在物体上刷颜色 将Import的Shader Lit Vertex Color URP做成材质球挂在地面上后即可使用刷上颜色 Flood可以直接填充全部 第四栏可以刷上预制体 将预制体放入Current Palette中选择后在Brush Loadout中可以看到选择的预制体 下方的滚条可以设置出现概率 可以多选预制体 放置时随机出现选择的预制体 刷预制体时尽量勾选 Hit surface is parent将预制体生成在当前物体子集下 按住Ctrl点按可以消除场景中刷上的预制体 但是要保证Brush Loadout中有当前预制体 第五栏可以在场景中刷Texture 方法同第四栏
 
 ### 关于ProBuilder插件绘制地面
-在Window-->Package Manager下找到ProBuilder下载后需要Import对应的Samples 后在Tools-->ProBuilde-->ProBuilde Window可以打开ProBuilde插件 选择右上方Use Icon Mode 使用图形模式 选择New Shape后按住左键选择范围可以更改不同的模型进行范围适配 参数可以从生成物体挂载的脚本Pro Builder Shape中更改Size可以更改物体大小 Plane Settings-->Height Cuts和Width Cuts可以更改顶点数 ProBuilder栏中选择Triangulate Object可以将方形面切割成三角面 创建出来的Plane可以用材质球直接附上材质即可
+在Window-->Package Manager下找到ProBuilder下载后需要Import对应的Samples 后在Tools-->ProBuilde-->ProBuilde Window可以打开ProBuilde插件 选择右上方Use Icon Mode 使用图形模式 选择New Shape后按住左键选择范围可以更改不同的模型进行范围适配 参数可以从生成物体挂载的脚本Pro Builder Shape中更改Size可以更改物体大小 Plane Settings-->Height Cuts和Width Cuts可以更改顶点数 设置好后按下Shift可以看到物体并放置 ProBuilder栏中选择Triangulate Object可以将方形面切割成三角面 创建出来的Plane可以用材质球直接附上材质即可
 
 ### 关于ProGrids插件
 安装ProGrids插件前先需要从Edit-->Project Settings-->Package Manager-->Advanced Settings中勾选Enable Pre-release Package之后 从Window-->Package Manager下左上方选择Add Package From git URL输入com.unity.progrids即可完成安装 后在Tools-->ProGrids-->ProGrids Window可以打开ProGrids插件 ProGrids主要是用于作为参考线 第一栏Snap Value是按照选定的距离进行拖拽移动
